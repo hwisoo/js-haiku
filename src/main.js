@@ -10,10 +10,11 @@ buttonElement.addEventListener("click", captureInput);
 
 function captureInput() {
   let userInput = userInputElement.value;
-  let haiku = new Haiku(userInput);
+ let haiku = new Haiku(userInput);
   console.log(haiku.hasFiveSevenFive());
   haiku.hasFiveSevenFive();
 }
 
+ 
 
 
